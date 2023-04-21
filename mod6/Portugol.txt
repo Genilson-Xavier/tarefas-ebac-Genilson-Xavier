@@ -1,0 +1,11 @@
+Início
+	1 - Abro os olhos
+	2 - levanto da cama
+	3 - ando até o banheiro
+	4 - pego a escova de dentes
+	5 - coloco pasta de dentes na escova
+	6 - escovo os dentes
+	7 - terminei de escovar ? sim
+		1 - enxáguo a boca
+	8 - não 
+Fim
