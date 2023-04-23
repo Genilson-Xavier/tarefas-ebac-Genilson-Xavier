@@ -1,0 +1,5 @@
+package br.com.tarefa_generics;
+
+public enum Modelo {
+	PEUGEOUT208,VOYAGE,CRONOS,KWID,ARGO,GOL,MOBI,ONIX,HB20,COROLLA,CIVIC,CRUZE,ARRIZO6,CERATO,JETTA
+}
