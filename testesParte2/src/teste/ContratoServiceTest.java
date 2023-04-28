@@ -17,7 +17,7 @@ import main.model.Contrato;
 public class ContratoServiceTest {
 	
 	IContratoService service = new ContratoService(new ContratoDao());
-	IContratoService serviceMock =new ContratoService(new ContratoDaoMock());;
+	IContratoService serviceMock = new ContratoService(new ContratoDaoMock());
 	
 	@Test
 	public void salvarTest() {
