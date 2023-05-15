@@ -1,0 +1,4 @@
+insert into categoria(id,nome,descricao,data_cadastro,id_usuario) values(nextval('SEQUENCE_CATEGORIA_MEME'),'Teste','meme divertido',current_date, 1);
+insert into categoria(id,nome,descricao,data_cadastro,id_usuario) values(nextval('SEQUENCE_CATEGORIA_MEME'),'Animal','memes de animais',current_date, 1);
+insert into categoria(id,nome,descricao,data_cadastro,id_usuario) values(nextval('SEQUENCE_CATEGORIA_MEME'),'Musica','memes relacionados a musicas',current_date, 1);
+insert into categoria(id,nome,descricao,data_cadastro,id_usuario) values(nextval('SEQUENCE_CATEGORIA_MEME'),'Vinheta','vinhetas',current_date, 1);
