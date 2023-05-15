@@ -1,0 +1,2 @@
+insert into usuario(id,nome,email,data_cadastro) values(nextval('sequence_Usuario'),'Joao','joao19@hotmail.com',current_date);
+insert into usuario(id,nome,email,data_cadastro) values(nextval('sequence_Usuario'),'Maria','maribonita@gmail.com',current_date);
