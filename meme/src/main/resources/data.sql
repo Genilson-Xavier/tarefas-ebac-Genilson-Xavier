@@ -1,0 +1,2 @@
+insert into meme(id,nome,url,descricao,data_cadastro,id_usuario,id_categoria) values(nextval('SEQUENCE_MEME'),'teste','http:teste.com','meme teste',current_date, 1,1);
+insert into meme(id,nome,url,descricao,data_cadastro,id_usuario,id_categoria) values(nextval('SEQUENCE_MEME'),'dia feliz','http:happy.com','meme sobre um dia ruim',current_date, 2,3);
