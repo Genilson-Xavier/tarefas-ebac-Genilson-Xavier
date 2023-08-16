@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  database:
+    image: postgres:13
+    container_name: local_ebac
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=1234

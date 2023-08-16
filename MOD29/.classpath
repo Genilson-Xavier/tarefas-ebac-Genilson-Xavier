@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/java/main/br/com/ebac/dao/interfaces"/>
+	<classpathentry kind="src" path="src/java/main/br/com/ebac/dao/jdbc"/>
+	<classpathentry kind="src" path="src/java/main/br/com/ebac/dao/resources"/>
+	<classpathentry excluding="Dao/" kind="src" path="src/java/main/br/com/ebac/domain"/>
+	<classpathentry kind="src" path="src/java/main/br/com/ebac/domain/Dao"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
