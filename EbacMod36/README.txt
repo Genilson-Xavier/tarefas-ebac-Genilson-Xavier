@@ -1,0 +1,1 @@
+Dentro da pasta docker-compose tem os arquivos para subir as bases de dados sendo duas postgres e uma mysql
