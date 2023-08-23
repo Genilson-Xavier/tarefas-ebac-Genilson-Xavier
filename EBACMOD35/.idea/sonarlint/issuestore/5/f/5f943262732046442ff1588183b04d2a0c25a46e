@@ -1,0 +1,32 @@
+
+R
+java:S3740«"/Provide the parametrized type for this generic.(Å¢îĞøÿÿÿÿ8×ˆª‡ 1
+n
+java:S1192°"WDefine a constant instead of duplicating this literal "ERRO LISTANDO OBJETOS " 3 times.(˜«”å
+u
+java:S1192œ"YDefine a constant instead of duplicating this literal "ERRO CONSULTANDO OBJETO " 3 times.(êèÑšûÿÿÿÿ
+Q
+java:S1141—"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141«"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Y
+java:S2589?"7Remove this expression which always evaluates to "true"(—ìÍüÿÿÿÿ8§‹ª‡ 1
+T
+java:S5993)"9Change the visibility of this constructor to "protected".(ˆ§¶úÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ß«Õ”øÿÿÿÿ
+P
+java:S1905T".Remove this unnecessary cast to "Persistente".(ŠÙâîüÿÿÿÿ8Á‹ª‡ 1
+G
+java:S1481k"1Remove this unused "rowsAffected" local variable.(•ºµñ
+G
+java:S1481}"1Remove this unused "rowsAffected" local variable.(•ºµñ
+\
+java:S2147"ECombine this catch with the one at line 155, which has the same body.(è–¼’
+³
+java:S1130«"Remove the declaration of thrown exception 'br.com.ebac.exceptions.TipoChaveNaoEncontradaException', as it cannot be thrown from method's body.(Å¢îĞøÿÿÿÿ8Õ‹ª‡ 1
+N
+java:S1135‰"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+\
+java:S2147±"ECombine this catch with the one at line 303, which has the same body.(è–¼’
+J
+java:S1144Ò"3Remove this unused private "getValueByType" method.(Üòîå
