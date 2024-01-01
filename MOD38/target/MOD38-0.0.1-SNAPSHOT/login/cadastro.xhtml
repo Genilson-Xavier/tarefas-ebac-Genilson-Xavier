@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Cadastro de Usuario</title>
+		<link type="text/css"
+			href="${facesContext.externalContext.requestContextPath}/resources/css/style.css"
+			rel="stylesheet" />
+		<link type="image/x-icon"
+			href="${facesContext.externalContext.requestContextPath}/resources/images/favicon.ico"
+			rel="shortcut icon" />
+	</h:head>	
+	<f:view>
+			<h:body>
+				<p:outputPanel>
+					<div id="cadastrarUsuario" style="width: 350px;margin: 0px auto;position: relative;">
+						<h3>Criar novo usuario</h3>
+					</div>
+					<div class="ui-g">
+						<div class="ui-g-2"></div>
+							<div class="ui-g-8">
+								<h:form id="add">
+									<p:panel id="loginPnl" header="Cadastro Usuario" style="width: 450px; margin: 0 auto;">
+										<h:panelGrid columns="3" cellpadding="5" style="margin: 0 auto;">
+											<p:outputLabel for="nome" value="Nome" />
+											<p:inputText id="nome"
+												value="#{loginBean.nome}" required="true" />
+											<p:message for="nome" />
+											
+											<p:outputLabel for="senha" value="Senha" />
+											<p:inputText id="senha"
+												value="#{loginBean.senha}" required="true" />
+											<p:message for="senha" />
+	
+											<p:outputLabel for="cpf" value="CPF" />
+											<p:inputText id="cpf" value="#{loginBean.cpf}"
+												size="11" maxlength="11" required="true" />
+											<p:message for="cpf" />
+																						
+											<p:commandButton update="add"
+												value="Cadastrar" action="#{loginBean.loginProject}"
+												immediate="true" ajax="true">
+												<f:ajax render="add" resetValues="true"/>
+											</p:commandButton>						
+										</h:panelGrid>
+									</p:panel>
+								</h:form>
+							</div>
+							<div class="ui-g-2"></div>
+						</div>
+				</p:outputPanel>
+			</h:body>		
+	</f:view>
+</html>	
